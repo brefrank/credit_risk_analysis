@@ -12,16 +12,12 @@ Balanced Accuracy Score - the average of recall obtained on each class
 Precision - quantifies the number of positive class predictions that actually belong to the positive class
 Recall - quantifies the number of positive class predictions made out of all positive examples in the dataset
 
-Results for eash model, shown below, were added to an excel sheet and attached for comparison. 
+Results for each model, shown below, were added to an excel sheet and attached for comparison. 
 
-Model Name	Naive Random Oversampling	SMOTE Oversampling	Undersampling	Combination Sampling	Balanced Random Forest Classifier	Easy Ensemble AdaBoost Classifier
-Balanced Accuracy Score	0.62	0.65	0.51	0.64	0.79	0.93
-Precision	0.99	0.99	0.99	0.99	0.99	0.99
-Recall	0.65	0.66	0.44	0.57	0.91	0.94
 ![image](https://user-images.githubusercontent.com/90646961/149574928-91b1c5f6-a0e2-48e7-abad-d2fe04d2e812.png)
 
+[Credit Risk Scores.xlsx](https://github.com/brefrank/credit_risk_analysis/files/7872792/Credit.Risk.Scores.xlsx)
 
 ## Summary
 
-There is a summary of the results
-There is a recommendation on which model to use, or there is no recommendation with a justification
+After completing our analysis, it is clear that the random forest and AdaBoost classifier models yield the best results. This is because they are both emsemble learning models that run multiple algorithms and make a final predictions based on an accumulation of results. Athough the two have similar precision and recall results, AdaBoost had a significantly higher balanced accuracy score than the others and would be the best model for predicting credit risk.
